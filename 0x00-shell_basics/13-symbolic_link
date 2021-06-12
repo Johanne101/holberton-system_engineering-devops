@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s /bin/ls _ls_
+ln -s "$(cd /bin/ls && pwd)" _ls_
