@@ -1,0 +1,2 @@
+#!/bin/bash
+printf -n 2 | cut -d '  ' -f 1
