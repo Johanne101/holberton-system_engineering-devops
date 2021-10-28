@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Bash script loops from 1 to 10 and displays '3' conditions
+n=1
+while [ $n -le 10 ]
+do
+    if [ $n -eq 4 ]; then
+        echo "bad luck"
+    elif [ $n -eq 8 ]; then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    ((n++))
+done
