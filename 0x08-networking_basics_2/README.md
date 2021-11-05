@@ -20,6 +20,7 @@ Resources
 
 ***Read or watch:***
 
+* [Docker sed](https://web.archive.org/web/20171117023601/http://blog.jonathanargentiero.com/docker-sed-cannot-rename-etcsedl8ysxl-device-or-resource-busy/)
 * [What is localhost](https://intranet.hbtn.io/rltoken/7SedZ8ILSQulYf7xzSbraQ)
 * [What is 0.0.0.0](https://intranet.hbtn.io/rltoken/n5IFAt_OWGJtGW33t7Jfag)
 * [What is the hosts file](https://intranet.hbtn.io/rltoken/21l3Uqizr3LpA1ZGrYPg3g)
