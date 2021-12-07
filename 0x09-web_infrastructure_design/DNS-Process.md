@@ -8,8 +8,8 @@ However, domain names like “the best domain name.com” are easily recognized 
 
 ![alt text](https://app.mural.co/t/0simplewebstack8962/m/0simplewebstack8962/1638505501579/4389acd3f66ff470b2c8f30b113a87b0cc8f7ced?sender=u02fbfd2dc87097a4c44b1379)
 
-|![alt text](file:///home/alex/My%20work/Projects/0x09-%20Web_infrastructure/Server/0.%20Simple%20web%20stack.png)|
-|---|
+![alt text](file:///home/alex/My%20work/Projects/0x09-%20Web_infrastructure/Server/0.%20Simple%20web%20stack.png)
+
 
 
 ### How DNS works step-by-step
