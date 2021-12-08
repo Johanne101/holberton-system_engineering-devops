@@ -8,14 +8,6 @@ However, domain names like “the best domain name.com” are easily recognized 
 
 ![alt text](https://app.mural.co/embed/9548f29e-68de-40ca-bed7-9f04fb297b37)
 
-<iframe src='https://app.mural.co/embed/9548f29e-68de-40ca-bed7-9f04fb297b37'
-        width='100%'
-        height='480px'
-        style='min-width: 640px; min-height: 480px; background-color: #f4f4f4; border: 1px solid #efefef'
-        sandbox='allow-same-origin allow-scripts allow-modals allow-popups allow-popups-to-escape-sandbox'>
-</iframe>
-
-
 ### How DNS works step-by-step
 
 The working principle and process of DNS are divided into the following steps 1-6:
