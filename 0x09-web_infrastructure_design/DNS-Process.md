@@ -6,6 +6,8 @@ The Domain Name System (DNS) is the central part of the Internet and provides a 
 However, domain names like “the best domain name.com” are easily recognized and remembered. DNS synchronizes domain names with IP addresses, allowing people to use domain names that are easy to remember, while computers on the Internet can use IP addresses.
 </p>
 
+![alt text](https://app.mural.co/t/0simplewebstack8962/m/0simplewebstack8962/1638919553758/0c8ee9e7649533b6f2bffb52891618db5634f450?sender=u02fbfd2dc87097a4c44b1379)
+
 ![alt text](https://app.mural.co/embed/9548f29e-68de-40ca-bed7-9f04fb297b37)
 
 <iframe src='https://app.mural.co/embed/9548f29e-68de-40ca-bed7-9f04fb297b37'
