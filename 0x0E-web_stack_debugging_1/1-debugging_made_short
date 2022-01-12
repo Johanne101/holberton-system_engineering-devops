@@ -2,4 +2,4 @@
 # Ascertains Ubuntus Nginx server & listen port 80.
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx start
-kill "$(ps -e 'nginx' | more -1)"
+kill "$(ps -e 'nginx' | head -1)"
