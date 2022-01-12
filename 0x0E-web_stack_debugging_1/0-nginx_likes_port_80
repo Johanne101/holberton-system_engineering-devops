@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Ascertains Ubuntu container’s Nginx server & listen port 80.
 
-rm /ec/nginx/sites-enabled/default
-ln -s /ec/nginx/sites-available/default /ec/nginx/sites-enabled/default
+rm /etc/nginx/sites-enabled/default
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 netstat -a | more
 service nginx restart
