@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Ascertains Ubuntu container’s Nginx server & listen port 80.
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx start
+SIGKILL "$(ps -e | more -1)"
