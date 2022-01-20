@@ -8,7 +8,7 @@
 |Types| name | Responsability |
 |:----|:----:|----------------|
 [A](https://support.dnsimple.com/articles/a-record/)|**Address**|maps a domain name to the IP address of the computer hosting the domain|An A record uses a domain name to find the IP address of a computer connected to the internet|
-[CNAME](https://en.wikipedia.org/wiki/CNAME_record) **Canonical NAME record**| maps a domain name into an alias|
+[CNAME](https://en.wikipedia.org/wiki/CNAME_record) |**Canonical NAME record**| maps a domain name into an alias|
 [MX](https://en.wikipedia.org/wiki/MX_record)|**mail exchanger record**|specifies the mail server responsible for accepting email messages on behalf of a domain name.|
 [TXT](https://en.wikipedia.org/wiki/TXT_record)|**Text record**|used to provide the ability to associate arbitrary text |
 
