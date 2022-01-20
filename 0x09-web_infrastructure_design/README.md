@@ -4,6 +4,7 @@
   * [Web server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
   * DNS
     * DNS record types[]()
+
 |Types| name | Responsability |
 |:----|:----:|----------------|
 [A](https://support.dnsimple.com/articles/a-record/)|**Address**|maps a domain name to the IP address of the computer hosting the domain|An A record uses a domain name to find the IP address of a computer connected to the internet|
@@ -37,7 +38,7 @@ It sends data between the browser and the website you’re connected to.
 |**Web Server**|*vs*|**Server**|
 |--------------|:--:|----------|
 | software that delivers web pages (or services).|*vs*| Is an actual computer.|
-|**TYPES:**|||
+|**TYPES:**|*vs*||
 |Apache, Internet information server
 
 ## What’s the difference between a web server and an app server?
@@ -45,12 +46,10 @@ It sends data between the browser and the website you’re connected to.
 |**Web Server**|*vs*|**App Server**|
 |--------------|:--:|----------|
 | Proccesses HTTP requests by responding with HTML pages |*vs*| Persists data, serves "biz" logic|
-|Servers static content:| | Handles all aplication operations, between:|
-|*HTML, images, ect.* | | *users, organizations back-end applications or databases.* |
-|No server side programming| | Deploys applications |
-|No database or dynamic generator of html| | Manages Template pages, code & data |
-
-
+|Servers static content:|*vs*| Handles all aplication operations, between:|
+|*HTML, images, ect.* |*vs*| *users, organizations back-end applications or databases.* |
+|No server side programming|*vs*| Deploys applications |
+|No database or dynamic generator of html|*vs*| Manages Template pages, code & data |
 
   * Single point of failure
   * How to avoid downtime when deploying new code
@@ -60,13 +59,17 @@ It sends data between the browser and the website you’re connected to.
 ------------------
 Web Infrastructure design Concepts:
 ------------------
+<p>
 Specifics about this one server web infrastructure design that hosts the website that is reachable via `www.foobar.com`
 
-#|What is a server|is computer software and underlying hardware that accepts requests| provides data or services to other computers via a network|
-#|What is the role of the domain name| A domain name is a web address consisting of a website name and a domain name extension.|
+|What is...| *Description* |
+|:---------|---------------|
+|Server|is computer software and underlying hardware that accepts requests, provides data or services to other computers via a network.|
+|The role of the domain name| A domain name is a web address consisting of a website name and a domain name extension.|
 
+</p>
 
-#What type of DNS record www is in www.foobar.com
+## What type of DNS record www is in www.foobar.com
 <p>
 * The CNAME record maps one domain name (an alias) to another (the canonical name). www 
 * DSN `A` record type points to the server **IP** address `8.8.8.8` to map the domain name to the IP address
