@@ -3,17 +3,21 @@ Firewall
 ![alt text](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/45dffb0b1da8dc2ce47e340d7f88b05652c0f486.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220124T141705Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f74c500c82069dc65509efa335e65b9c17c4a53237ad1d26f0993d9d80842241)
 
 <p>
+
 ***What is a firewall?***
+
 ```
 A hardware or software security system
 ```
 
 ***What are the 2 types of firewall:***
+
 ```
 Network and host-based firewall
 ```
 
 ***What is the main function of a firewall?***
+
 ```
 To filter incoming and outgoing network traffic
 ```
@@ -22,9 +26,11 @@ To filter incoming and outgoing network traffic
 
 ### ***How to install `ufw` firewall and set up some rules on a web (web-01)***:
 <p>
+
 **What is UFW?**
 
 UFW, or Uncomplicated Firewall, is a front-end to iptables. Its main goal is to make managing your firewall drop-dead simple and to provide an easy-to-use interface. It’s well-supported and popular in the Linux community—even installed by default in a lot of distros. As such, it’s a great way to get started securing your server.
+
 </p>
 
 ----------------
@@ -33,7 +39,8 @@ UFW, or Uncomplicated Firewall, is a front-end to iptables. Its main goal is to 
 
 ## More Info
 <p>
-As explained in the web stack debugging guide concept page, telnet is a very good tool to check if sockets are open with telnet IP PORT. For example, if you want to check if port 22 is open on web-02:
+As explained in the web stack debugging guide concept page, `telnet` is a very good tool to check if sockets are open with `telnet IP PORT`.
+For example, if you want to check if port 22 is open on `web-02`:
 </p>
 
 ```
@@ -48,7 +55,7 @@ Connection closed by foreign host.
 sylvain@ubuntu$
 ```
 <p>
-We can see for this example that the connection is successful: Connected to web-02.holberton.online.
+We can see for this example that the connection is successful: `Connected to web-02.holberton.online`.
 
 Now let’s try connecting to port 2222:
 </p>
@@ -60,11 +67,15 @@ Trying 54.89.38.100...
 sylvain@ubuntu$
 ```
 <p>
-We can see that the connection never succeeds, so after some time I just use ctrl+c to kill the process.
+We can see that the connection never succeeds, so after some time I just use `ctrl+c` to kill the process.
 
 This can be used not just for this exercise, but for any debugging situation where two pieces of software need to communicate over sockets.
 
-Note that the school network is filtering outgoing connections (via a network-based firewall), so you might not be able to interact with certain ports on servers outside of the school network. To test your work on web-01, please perform the test from outside of the school network, like from your web-02 server. If you SSH into your web-02 server, the traffic will be originating from web-02 and not from the school’s network, bypassing the firewall.
+Note that the school network is filtering outgoing connections (via a network-based firewall), so you might not be able to interact
+with certain ports on servers outside of the school network.
+
+To test your work on `web-01`, please perform the test from outside of the school network, like from your `web-02` server.
+If you SSH into your `web-02` server, the traffic will be originating from web-02 and not from the school’s network, bypassing the firewall.
 </p>
 
 ## Warning!
