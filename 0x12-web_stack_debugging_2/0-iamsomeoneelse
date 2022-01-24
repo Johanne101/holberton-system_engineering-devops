@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# script accepts whoami command
+# under the user passed as an argv
+
+echo - -u "$1" whoami
