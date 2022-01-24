@@ -39,8 +39,10 @@ UFW, or Uncomplicated Firewall, is a front-end to iptables. Its main goal is to 
 
 ## More Info
 <p>
+
 As explained in the web stack debugging guide concept page, `telnet` is a very good tool to check if sockets are open with `telnet IP PORT`.
 For example, if you want to check if port 22 is open on `web-02`:
+
 </p>
 
 ```
@@ -76,6 +78,7 @@ with certain ports on servers outside of the school network.
 
 To test your work on `web-01`, please perform the test from outside of the school network, like from your `web-02` server.
 If you SSH into your `web-02` server, the traffic will be originating from web-02 and not from the school’s network, bypassing the firewall.
+
 </p>
 
 ## Warning!
@@ -87,12 +90,14 @@ If you SSH into your `web-02` server, the traffic will be originating from web-0
 
 ---------------------------------
 
-**Intro**
+#### Intro
+
 <p>
 Debugging usually takes a big chunk of a software engineer’s time. The art of debugging is tough and it takes years, even decades to master, and that is why seasoned software engineers are the best at it… experience. They have seen lots of broken code, buggy systems, weird edge cases and race conditions.
 </p>
 
-**Test and verify your assumptions**
+#### Test and verify your assumptions
+
 <p>
 The idea is to ask a set of questions until you find the issue. For example, if you installed a web server and it isn’t serving a page when browsing the IP, here are some questions you can ask yourself to start debugging:
 
@@ -106,7 +111,7 @@ The idea is to ask a set of questions until you find the issue. For example, if 
 There is a good chance that at this point you will already have found part of the issue.
 </p>
 
-**Get a quick overview of the machine state**
+## Get a quick overview of the machine state
 
 [Youtube video First 5 Commands When I Connect on a Linux Server](https://www.youtube.com/watch?v=1_gqlbADaAw)
 <p>
@@ -138,7 +143,10 @@ and you can do this with [5 commands](https://www.linux.com/training-tutorials/f
 * what processes are using sockets
 * try netstat -lpn on a Ubuntu machine
 
-**Network issue**
+-------------------
+
+## Network issues
+
 <p>
 For the machine level, you want to ask yourself these questions:
 
@@ -152,10 +160,12 @@ For the machine level, you want to ask yourself these questions:
 
 </p>
 
-**Process issue**
+## Process issue
+
 <p>
 If a piece of Software isn’t behaving as expected, it can obviously be because of above reasons… but the good news is that there is more to look into (there is ALWAYS more to look into actually).
 </p>
+
 Is the software started? `init`, `init.d`:
 
 ```
@@ -174,9 +184,9 @@ Is there anything interesting in the logs? look for log files in `/var/log/` and
 
 **Debugging is fun**
 
-``
+```
 Debugging can be frustrating, but it will definitely be part of your job, it requires experience and methodology to become good at it. The good news is that bugs are never going away, and the more experienced you become, trickier bugs will be assigned to you! Good luck :)
-``
+```
 
 ![alt text](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/bae58c9f066a9668001ef4b4c39778407439d2f9.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220124T141705Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8c237575246a82b661b27bd33dd09a4db9b8c73632ba524fc79e5b1abe3774fc)
 
