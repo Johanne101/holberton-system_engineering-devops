@@ -25,7 +25,7 @@ Below are the integer comparison operators which will evaluate against two given
 
 </p>
 
-## How to use the cut command
+## How to use the [cut](https://linuxdigest.com/howto/using-the-cut-command-in-bash/) command
 ## What are files and other comparison operators, and how to use them
 
 Resources
@@ -41,6 +41,7 @@ Resources
 * [ShellCheck](https://www.cyberciti.biz/programming/improve-your-bashsh-shell-script-with-shellcheck-lint-script-analysis-tool/)
 * **Variable assignment and arithmetic**
   - [Operators](https://tldp.org/LDP/abs/html/ops.html)
+  - [How to List all ENV Variables](https://www.cyberciti.biz/faq/linux-list-all-environment-variables-env-command/)
 * [Comparison operators](https://tldp.org/LDP/abs/html/comparison-ops.html)
 * [File test operators](https://tldp.org/LDP/abs/html/fto.html)
 * [Make your scripts portable](https://www.cyberciti.biz/tips/finding-bash-perl-python-portably-using-env.html)
