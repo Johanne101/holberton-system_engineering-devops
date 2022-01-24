@@ -17,6 +17,11 @@ To filter incoming and outgoing network traffic
 ``
 ----------------
 ### ***How to install `ufw` firewall and set up some rules on a web (web-01)***:
+<p>
+**What is UFW?**
+
+UFW, or Uncomplicated Firewall, is a front-end to iptables. Its main goal is to make managing your firewall drop-dead simple and to provide an easy-to-use interface. It’s well-supported and popular in the Linux community—even installed by default in a lot of distros. As such, it’s a great way to get started securing your server.
+</p>
 ----------------
 </p>
 
@@ -152,4 +157,4 @@ Resources
 * load average will give you a good sense of the server health: (read more about load
   * [here](https://scoutapm.com/blog/understanding-load-averages) and
   * [here](https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html))
-
+* [Netstat](http://netstat.net/)
