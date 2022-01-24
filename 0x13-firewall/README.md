@@ -68,13 +68,12 @@ Note that the school network is filtering outgoing connections (via a network-ba
 </p>
 
 ## Warning!
-<p>
 
-**Containers on demand cannot be used for this project (Docker container limitation)**
+> **Containers on demand cannot be used for this project (Docker container limitation)**
 
-**Be very careful with firewall rules! For instance, if you ever deny port 22/TCP and log out of your server, you will not be able to reconnect to your server via SSH, and we will not be able to recover it. When you install UFW, port 22 is blocked by default, so you should unblock it immediately before logging out of your server.**
+> **Be very careful with firewall rules! For instance, if you ever deny port 22/TCP and log out of your server, you will not be able to reconnect to your server via SSH, and we will not be able to recover it. When you install UFW, port 22 is blocked by default, so you should unblock it immediately before logging out of your server.**
 
-</p>
+
 ---------------------------------
 
 **Intro**
@@ -108,15 +107,19 @@ and you can do this with [5 commands](https://www.linux.com/training-tutorials/f
 * shows server uptime which is the time during which the server has been continuously running
 * shows which users are connected to the server
 * load average will give you a good sense of the server health - (read more about load [here](https://scoutapm.com/blog/understanding-load-averages) and [here](https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html))
+
 `history`
 * shows which commands were previously run by the user you are currently connected to
 * you can learn a lot about what type of work was previously performed on the machine, and what could have gone wrong with it
 * where you might want to start your debugging work
+
 `top`
 * shows what is currently running on this server
 * order results by CPU, memory utilization and catch the ones that are resource intensive
+
 `df`
 * shows disk utilization
+
 `netstat`
 * what port and IP your server is listening on
 * what processes are using sockets
@@ -126,12 +129,14 @@ and you can do this with [5 commands](https://www.linux.com/training-tutorials/f
 <p>
 For the machine level, you want to ask yourself these questions:
 
-Does the server have the expected network interfaces and IPs up and running? ifconfig
-Does the server listen on the sockets that it is supposed to? netstat (netstat -lpd or netstat -lpn)
-Can you connect from the location you want to connect from, to the socket you want to connect to? telnet to the IP + PORT (telnet 8.8.8.8 80)
-Does the server have the correct firewall rules? iptables, ufw:
-iptables -L
-sudo ufw status
+* Does the server have the expected network interfaces and IPs up and running? `ifconfig`
+* Does the server listen on the sockets that it is supposed to? `netstat` (`netstat -lpd` or `netstat -lpn`)
+* Can you connect from the location you want to connect from, to the socket you want to connect to?
+  * `telnet` to the IP + PORT (`telnet 8.8.8.8 80`)
+* Does the server have the correct firewall rules? `iptables`, `ufw`:
+  * `iptables -L`
+  * `sudo ufw status`
+
 </p>
 
 **Process issue**
