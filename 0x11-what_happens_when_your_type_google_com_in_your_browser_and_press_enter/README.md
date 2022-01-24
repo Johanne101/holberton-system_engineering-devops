@@ -17,8 +17,10 @@ How a software system works...?
 * [How the web stack works on top of the internet?]()
   - To begin answering this question ask...
     + Would you like to focus in on one specific area of the workflow?
+
 Front-End question:
 * [How the DOM is rendering?]()
+
 SRE question:
 * [The load balancing mechanism.]()
 * [Do you understand the what, how, & why of DNS]()
