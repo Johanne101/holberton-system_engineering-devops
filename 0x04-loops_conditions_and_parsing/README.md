@@ -1,35 +1,32 @@
 Loops, conditions and parsing
 ==============================
 
-**Tools your need:**
+## How to create SSH keys
+<p>
+What is the advantage of using ``#!/usr/bin/env bash`` over ``#!/bin/bash``
 
-General
------------
+How to use `while`, `until` and `for` loops
 
-* How to create SSH keys
-What is the advantage of using #!/usr/bin/env bash over #!/bin/bash
-How to use while, until and for loops
-How to use if, else, elif and case condition statements
+How to use `if`, `else`, `elif` and case condition statements
+</p>
 
-**Integer comparison operators**
+## Integer comparison operators
 <p>
 Below are the integer comparison operators which will evaluate against two given integers.
 
--eq => Integer X is equal to Integer Y
+|operators|
+|---------|
+|`-eq` => Integer X is equal to Integer Y|
+|`-ne` => Integer X is not equal to Integer Y|
+|`-gt` => Integer X is greater than Integer Y|
+|`-ge` => Integer X is greater than or equal to Integer Y|
+|`-lt` => Integer X is lesser than Integer Y|
+|`-le` => Integer X is lesser than or equal to Integer Y|
 
--ne => Integer X is not equal to Integer Y
-
--gt => Integer X is greater than Integer Y
-
--ge => Integer X is greater than or equal to Integer Y
-
--lt => Integer X is lesser than Integer Y
-
--le => Integer X is lesser than or equal to Integer Y
 </p>
 
-How to use the cut command
-What are files and other comparison operators, and how to use them
+## How to use the cut command
+## What are files and other comparison operators, and how to use them
 
 Resources
 ==========
@@ -41,8 +38,9 @@ Resources
   * [Iterations](https://linuxize.com/post/bash-break-continue/)
   * [case statement](https://linuxize.com/post/bash-case-statement/)
   * [While exaples](https://www.cyberciti.biz/faq/bash-while-loop/)
-
-Variable assignment and arithmetic
-Comparison operators
-File test operators
-Make your scripts portable
+* [ShellCheck](https://www.cyberciti.biz/programming/improve-your-bashsh-shell-script-with-shellcheck-lint-script-analysis-tool/)
+* **Variable assignment and arithmetic**
+  - [Operators](https://tldp.org/LDP/abs/html/ops.html)
+* [Comparison operators](https://tldp.org/LDP/abs/html/comparison-ops.html)
+* [File test operators](https://tldp.org/LDP/abs/html/fto.html)
+* [Make your scripts portable](https://www.cyberciti.biz/tips/finding-bash-perl-python-portably-using-env.html)
