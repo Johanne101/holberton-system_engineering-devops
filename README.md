@@ -34,15 +34,27 @@ The table below highlights the most common special built-in bash variables:
 |$! |The process id of the last executed command.|
 
 
-General: Loops, conditions and parsing
------------
+***JUMP TO Repository***:
 
-How to create SSH keys
-What is the advantage of using #!/usr/bin/env bash over #!/bin/bash
-How to use while, until and for loops
-How to use if, else, elif and case condition statements
-How to use the cut command
-What are files and other comparison operators, and how to use them
+0. [Shell Basics](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x00-shell_basics)
+1. [Shell Permissions](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x01-shell_permissions)
+2. [Shell Redirections](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x02-shell_redirections)
+3. [Shell variables expansions](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x03-shell_variables_expansions)
+4. [Loops Conditions & Parsing](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x04-loops_conditions_and_parsing)
+5. [processes_and_signals](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x05-processes_and_signals)
+6. [regular_expressions](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x06-regular_expressions)
+7. [Network Basics](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x07-networking_basics)
+8. [Network Basics 2](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x08-networking_basics_2)
+9. [Web Infrastructure Design](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x09-web_infrastructure_design)
+10. [Configuration Management](#Class)
+11. [SSH](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x0B-ssh)
+12. [web_stack_debugging_0](#CSS_specifics)
+13. [Web_stack_debugging_1](#Box_properties)
+14. [Load Balancer](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x0F-load_balancer)
+15. [HTTPS/SSL](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x10-https_ssl)
+16. [What Happens when you type a URL in your browser and press enter]()
+17. [Firewall](https://github.com/Johanne101/holberton-system_engineering-devops/tree/main/0x13-firewall)
+
 
 Resources
 ==========
@@ -50,10 +62,8 @@ Resources
 
 * [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
 
-Variable assignment and arithmetic
-
-Comparison operators
-
-File test operators
-
-Make your scripts portable
+* **Variable assignment and arithmetic**
+  - [passing Arguments](https://linuxhandbook.com/bash-arguments/)
+* Comparison operators
+* File test operators
+* Make your scripts portable
