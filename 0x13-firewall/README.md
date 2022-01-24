@@ -196,9 +196,9 @@ Resources
 **Read or watch:**
 
 * [What is a firewall](https://en.wikipedia.org/wiki/Firewall_%28computing%29)
-* [How to Install UFW & set-up](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
+* [How to Install UFW & Setup](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
 * [Machine State Uptime](https://whatis.techtarget.com/definition/uptime-and-downtime)
 * load average will give you a good sense of the server health: (read more about load
-  * [here](https://scoutapm.com/blog/understanding-load-averages) and
-  * [here](https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html))
+  * [here](https://scoutapm.com/blog/understanding-load-averages) and [here](https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html))
 * [Netstat](http://netstat.net/)
+* [Testind Enviroment](https://www.tecmint.com/create-ssh-tunneling-port-forwarding-in-linux/)
