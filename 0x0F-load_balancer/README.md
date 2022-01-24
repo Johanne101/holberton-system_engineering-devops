@@ -5,7 +5,7 @@ Load-balancer:
 <p>
 Ever wonder how Facebook, Linkedin, Twitter and other web giants are handling such huge amounts of traffic? They don’t have just one server, but tens of thousands of them. In order to achieve this, web traffic needs to be distributed to these servers, and that is the role of a load-balancer.
 </p>
-![alt text](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/6cefdd14b2f8c36789cba132bd5a10d42d88a177.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220110%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220110T174756Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a6a0fd77bdacdd275bb59ec79adecaa9f71bd2da3e8bbdfb73bffae52b67753d.png)
+![alt text](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/6cefdd14b2f8c36789cba132bd5a10d42d88a177.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220110%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220110T174756Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a6a0fd77bdacdd275bb59ec79adecaa9f71bd2da3e8bbdfb73bffae52b67753d)
 
 **Load-balancing**
 **Load-balancing Algorithms**
