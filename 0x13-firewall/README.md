@@ -99,8 +99,10 @@ There is a good chance that at this point you will already have found part of th
 
 [Youtube video First 5 Commands When I Connect on a Linux Server](https://www.youtube.com/watch?v=1_gqlbADaAw)
 <p>
+
 When you connect to a server/machine/computer/container you want to understand what’s happened recently and what’s happening now,
 and you can do this with [5 commands](https://www.linux.com/training-tutorials/first-5-commands-when-i-connect-linux-server/) in a minute or less:
+
 </p>
 
 `w`
