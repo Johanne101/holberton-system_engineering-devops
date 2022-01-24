@@ -6,7 +6,7 @@ Load-balancer:
 Ever wonder how Facebook, Linkedin, Twitter and other web giants are handling such huge amounts of traffic? They don’t have just one server, but tens of thousands of them. In order to achieve this, web traffic needs to be distributed to these servers, and that is the role of a load-balancer.
 </p>
 
-![alt text](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/6cefdd14b2f8c36789cba132bd5a10d42d88a177.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220110%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220110T174756Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a6a0fd77bdacdd275bb59ec79adecaa9f71bd2da3e8bbdfb73bffae52b67753d)
+![alt text](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/6cefdd14b2f8c36789cba132bd5a10d42d88a177.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220124T181337Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=13f00f39c5e2602cfd3edda10a4dd2949a5328ee4c31f97cd2cb8f5554c0ae45)
 
 **Load-balancing**
 **Load-balancing Algorithms**
@@ -30,26 +30,14 @@ Get a quick overview of the machine state
 
 ### Requirements:
 
-```
-Allowed editors: vi, vim, emacs
-```
-```
-All your files will be interpreted on Ubuntu 16.04 LTS
-```
-```
-All your files should end with a new line
-```
-A README.md file, at the root of the folder of the project
-```
-All your Bash script files must be executable
-```
-Your Bash script must pass Shellcheck (version 0.3.7) without any error
-```
-The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
-```
-```
-The second line of all your Bash scripts should be a comment explaining what is the script doing
-```
+* Allowed editors: ``vi, vim, emacs``
+* All your files will be interpreted on Ubuntu 16.04 LTS
+* All your files should end with a new line
+* A `README.md` file, at the root of the folder of the project
+* All your Bash script files must be executable
+* Your Bash script must pass `Shellcheck` (version `0.3.7`) without any error
+* The first line of all your Bash scripts should be exactly ``#!/usr/bin/env bash``
+* The second line of all your Bash scripts should be a comment explaining what is the script doing
 
 Resources
 ==========
