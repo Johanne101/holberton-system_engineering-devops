@@ -4,31 +4,38 @@ Firewall
 
 <p>
 ***What is a firewall?***
-``
+```
 A hardware or software security system
-``
+```
+
 ***What are the 2 types of firewall:***
-``
+```
 Network and host-based firewall
-``
+```
+
 ***What is the main function of a firewall?***
-``
+```
 To filter incoming and outgoing network traffic
-``
+```
+
 ----------------
+
 ### ***How to install `ufw` firewall and set up some rules on a web (web-01)***:
 <p>
 **What is UFW?**
 
 UFW, or Uncomplicated Firewall, is a front-end to iptables. Its main goal is to make managing your firewall drop-dead simple and to provide an easy-to-use interface. It’s well-supported and popular in the Linux community—even installed by default in a lot of distros. As such, it’s a great way to get started securing your server.
 </p>
+
 ----------------
+
 </p>
 
 ## More Info
 <p>
 As explained in the web stack debugging guide concept page, telnet is a very good tool to check if sockets are open with telnet IP PORT. For example, if you want to check if port 22 is open on web-02:
 </p>
+
 ```
 sylvain@ubuntu$ telnet web-02.holberton.online 22
 Trying 54.89.38.100...
@@ -45,6 +52,7 @@ We can see for this example that the connection is successful: Connected to web-
 
 Now let’s try connecting to port 2222:
 </p>
+
 ```
 sylvain@ubuntu$ telnet web-02.holberton.online 2222
 Trying 54.89.38.100...
@@ -129,21 +137,27 @@ sudo ufw status
 If a piece of Software isn’t behaving as expected, it can obviously be because of above reasons… but the good news is that there is more to look into (there is ALWAYS more to look into actually).
 </p>
 Is the software started? `init`, `init.d`:
+
 ```
 $ service NAME_OF_THE_SERVICE status
 $ /etc/init.d/NAME_OF_THE_SERVICE status
 ```
+
 Is the software process running? `pgrep`, `ps`:
+
 ```
 $ pgrep -lf NAME_OF_THE_PROCESS
 $ ps auxf
 ```
+
 Is there anything interesting in the logs? look for log files in `/var/log/` and `tail -f` is your friend
 
 **Debugging is fun**
+
 ``
 Debugging can be frustrating, but it will definitely be part of your job, it requires experience and methodology to become good at it. The good news is that bugs are never going away, and the more experienced you become, trickier bugs will be assigned to you! Good luck :)
 ``
+
 ![alt text](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/bae58c9f066a9668001ef4b4c39778407439d2f9.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220124T141705Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8c237575246a82b661b27bd33dd09a4db9b8c73632ba524fc79e5b1abe3774fc)
 
 
