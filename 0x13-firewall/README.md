@@ -202,3 +202,5 @@ Resources
   * [here](https://scoutapm.com/blog/understanding-load-averages) and [here](https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html))
 * [Netstat](http://netstat.net/)
 * [Testind Enviroment](https://www.tecmint.com/create-ssh-tunneling-port-forwarding-in-linux/)
+* [How to Install and Use UFW Firewall on Linux](https://linuxconfig.org/how-to-install-and-use-ufw-firewall-on-linux)
+* [How to block or unblock ping requests on Ubuntu Server 20.04 LTS](https://linuxhint.com/block-unblock-ping-requests-to-ubuntu-server/)
