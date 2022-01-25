@@ -5,9 +5,8 @@
 # 443 (HTTPS SSL),
 # 80 (HTTP).
 
-# Status
-sudo ufw status
 sudo apt-get install ufw
+sudo ufw enable
 # Using IPv6 with UFW configuration, save and quit
 sed -i 's/IPV6=.*/IPV6=yes/' /etc/default/ufw
 sudo ufw disable
