@@ -5,7 +5,8 @@
 # 443 (HTTPS SSL),
 # 80 (HTTP).
 
-# Install ufw
+# Status
+sudo ufw status
 sudo apt-get install ufw
 # Using IPv6 with UFW configuration, save and quit
 sed -i 's/IPV6=.*/IPV6=yes/' /etc/default/ufw
@@ -14,8 +15,7 @@ sudo ufw enable
 # Set-up defaults
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
-# Allow connections TCP; (SSH, HTTPS SSL, HTTP)
-sudo ufw allow ssh
+# Allow connections TCP; (SSH, HTTPS/SSL, HTTP)
 sudo ufw allow 22/tcp
 sudo ufw allow 443/tcp
 sudo ufw allow 80/tcp
