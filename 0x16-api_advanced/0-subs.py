@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Function queries the Rddit API
+and returns 'n' of subscribers
+"""
 import json
 import pprint
 import requests
