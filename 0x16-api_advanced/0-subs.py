@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-import requests
-import pprint
 import json
+import pprint
+import requests
 # r = requests.Reddit(UNIQUQ_AND_DESCRIPTIVE_USERAGENT)
 # s = r.get_subreddit('redditdev', fetch=True)
 # pprint.pprint(vars(s))
