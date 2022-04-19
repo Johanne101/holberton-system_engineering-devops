@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# Bash Script Installs apache conected to Docker container
-
-sudo service apache2 restart
