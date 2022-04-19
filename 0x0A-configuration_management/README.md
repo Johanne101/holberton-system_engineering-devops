@@ -11,9 +11,6 @@ $ apt-get install -y ruby-augeas
 $ apt-get install -y ruby-shadow
 $ apt-get install -y puppet
 ```
-<p>
-You do not need to attempt to upgrade versions. This project is simply a set of tasks to familiarize you with the basic level syntax which is virtually identical in newer versions of Puppet.
-</p>
 [Puppet 5 Docs](link)
 
 Install `puppet-lint`
@@ -21,7 +18,24 @@ Install `puppet-lint`
 $ gem install puppet-lint
 ```
 
+Run It!
+
+```puppet
+$ puppet-lint /etc/puppet/modules
+```
+
+Fix Them!
+
+```puppet
+$ puppet-lint --fix /etc/puppet/modules
+```
+
+# Puppet Syntax
+-----------------
+>>pending...
+
 # Configuration management
+-----------------
 <p>
 For starters Configuration Management is also or broadly known as **server configuration management**.
 It's the process of systematically handeling changes to the system while maintaining it's integrity over time.
@@ -63,7 +77,7 @@ Once you have your server setup translated into a set of provisioning scripts, y
 This enables you to effectively build a multistage ecosystem, with production, development, and testing servers. Minimizing enviroment discrepancies.
 </p>
 
-|**Most Common Features in CM Tools for Servers**|
+|**Most Common Features in CM Tools for Servers**| **Description** |
 |:------|-----------------------------|
 |Automation Framework Each CM| provides a specific syntax and a set of features that you can use to write provisioning scripts.|
 |Idempotent Behavior Configuration| management tools keep track of the state of resources in order to avoid repeating tasks that were executed before.|
@@ -97,10 +111,20 @@ Resources
 
 * [Intro to Configuration Management](https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management)
 * [Getting Started: Writting `Puppet` Manifests](https://www.digitalocean.com/community/tutorials/configuration-management-101-writing-puppet-manifests)
+  * [Getting Started with Puppet Code: Manifests and Modules](https://www.digitalocean.com/community/tutorials/getting-started-with-puppet-code-manifests-and-modules)
 * [Puppet resource type: file](https://puppet.com/docs/puppet/5.5/types/file.html)
-* Puppet’s Declarative Language: Modeling Instead of Scripting
-* Puppet lint
-* Puppet emacs mode
+  * [Declaring Resources](https://puppet.com/docs/puppet/7/types/overview.html#declaring-resources)
+* [Puppet’s Declarative Language: Modeling Instead of Scripting](https://puppet.com/blog/puppets-declarative-language-modeling-instead-of-scripting/)
+* [Puppet lint](http://puppet-lint.com/)
+  * [Check: Error Messages](http://puppet-lint.com/checks/)
+* [Puppet emacs mode](https://github.com/voxpupuli/puppet-mode)
+* **Cheat Sheet:**
+  * [Core types](https://puppet.com/docs/puppet/5.5/cheatsheet_core_types.html)
+  * [Resource Type Reference](https://puppet.com/docs/puppet/5.5/type.html)
+**More...**
+* [Puppet String style guide](https://puppet.com/docs/puppet/5.5/puppet_strings_style.html#reference-5366)
+* [Documenting modules with Puppet Strings](https://puppet.com/docs/puppet/5.5/puppet_strings.html#concept-9086)
+* [Beginners Guide](https://puppet.com/docs/puppet/5.5/bgtm.html#concept-1345)
 
 ### Requirements
 **General**
