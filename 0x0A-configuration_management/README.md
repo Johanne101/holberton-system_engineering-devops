@@ -112,6 +112,7 @@ Resources
 * [Intro to Configuration Management](https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management)
 * [Getting Started: Writting `Puppet` Manifests](https://www.digitalocean.com/community/tutorials/configuration-management-101-writing-puppet-manifests)
   * [Getting Started with Puppet Code: Manifests and Modules](https://www.digitalocean.com/community/tutorials/getting-started-with-puppet-code-manifests-and-modules)
+  * [Writing Manifests: TutorialPoint](https://www.tutorialspoint.com/puppet/puppet_manifest_files.htm)
 * [Puppet resource type: file](https://puppet.com/docs/puppet/5.5/types/file.html)
   * [Declaring Resources](https://puppet.com/docs/puppet/7/types/overview.html#declaring-resources)
 * [Puppet’s Declarative Language: Modeling Instead of Scripting](https://puppet.com/blog/puppets-declarative-language-modeling-instead-of-scripting/)
