@@ -121,6 +121,7 @@ Resources
 * [Puppet emacs mode](https://github.com/voxpupuli/puppet-mode)
 * **Cheat Sheet:**
   * [Core types](https://puppet.com/docs/puppet/5.5/cheatsheet_core_types.html)
+  * [Attributes: PUPPET Docs](https://puppet.com/docs/puppet/7/types/file.html#file-attributes)
   * [Resource Type Reference](https://puppet.com/docs/puppet/5.5/type.html)
 **More...**
 * [Puppet String style guide](https://puppet.com/docs/puppet/5.5/puppet_strings_style.html#reference-5366)
