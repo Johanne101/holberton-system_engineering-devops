@@ -125,6 +125,7 @@ Resources
 * [Puppet String style guide](https://puppet.com/docs/puppet/5.5/puppet_strings_style.html#reference-5366)
 * [Documenting modules with Puppet Strings](https://puppet.com/docs/puppet/5.5/puppet_strings.html#concept-9086)
 * [Beginners Guide](https://puppet.com/docs/puppet/5.5/bgtm.html#concept-1345)
+* [Admin Set up: Server side](https://puppet.com/docs/puppet/5.5/quick_start_essential_config.html)
 
 ### Requirements
 **General**
