@@ -5,8 +5,11 @@ General Objectives:
 ---
 
 What is the main role of a web server
+<p>
   * The main role of a web server is to serve static content
   * A web server is a softare.
+  * Web servers are the piece of software generating and serving HTML pages.
+</p>
 <p>
 The main role of DNS is to translate domain into IP address.
 
@@ -56,3 +59,4 @@ Resources
 ***man or help:***
 * `scp`
 * `curl`
+* [`-y on apt-get command`](https://askubuntu.com/questions/672892/what-does-y-mean-in-apt-get-y-install-command)
