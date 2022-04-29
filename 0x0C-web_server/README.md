@@ -6,10 +6,13 @@ General Objectives:
 
 What is the main role of a web server
 <p>
+
   * The main role of a web server is to serve static content
   * A web server is a softare.
   * Web servers are the piece of software generating and serving HTML pages.
+
 </p>
+
 <p>
 The main role of DNS is to translate domain into IP address.
 
@@ -35,7 +38,11 @@ What are the main HTTP requests
 |A record | an IP |
 |CNAME | a domain |
 
+<p>
 TTL within the context of DNS is a time period when DNS query results are cached.
+</p>
+
+
 
 Resources
 ==========
@@ -55,6 +62,9 @@ Resources
 ***For reference:***
 * [RFC 7231 (HTTP/1.1)](https://datatracker.ietf.org/doc/html/rfc7231)
 * [RFC 7540 (HTTP/2)](https://datatracker.ietf.org/doc/html/rfc7540)
+
+***Domain Name Verification:***
+- [Domain Name set-up Registrar](https://whois.whoisxmlapi.com/)
 
 ***man or help:***
 * `scp`
