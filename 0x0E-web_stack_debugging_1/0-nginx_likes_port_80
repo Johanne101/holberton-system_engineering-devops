@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Ascertains Ubuntu container’s Nginx server & listen port 80.
+# Delete default file
+rm /etc/nginx/sites-enabled/default
+# Add symlink
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+netstat -a | more
+# Restart web server
+service nginx restart
