@@ -2,6 +2,7 @@
 # Configure nginx server
 sudo apt-get update
 sudo apt-get install nginx -y
-sudo echo "Hello World!" | sudo tee /var/www/html/index.nginx-debian.html
+sudo ufw allow 'Nginx HTTP'
+echo "Hello World!" > /var/www/html/index.html
 sudo sed -i '24 i \\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4i permanent;' /etc/nginx/sites-enabled/default
-sudo service nginx start
+sudo service nginx restart
