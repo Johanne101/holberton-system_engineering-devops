@@ -1,7 +1,7 @@
 ## Server: has 12 components
 
-|*Components*| everything what a computer has|
-|:-----------|
+|*Components* everything what a computer has|
+|----------------------------------------|
 |**Case**|
 |**OP** (Operating System)| A server's OS is designed to provide a series of services to end users who access the server over the network. |
 |**Network Conecction**|
